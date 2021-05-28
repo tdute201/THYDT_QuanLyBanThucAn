@@ -50,7 +50,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btHoaDon.setBackground(new java.awt.Color(255, 255, 255));
         btHoaDon.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btHoaDon.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\hoadon.png")); // NOI18N
+        btHoaDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/hoadon.png"))); // NOI18N
         btHoaDon.setText("QUẢN LÍ  HÓA ĐƠN");
         btHoaDon.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btHoaDon.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -64,7 +64,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btThucDon.setBackground(new java.awt.Color(255, 255, 255));
         btThucDon.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btThucDon.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\MENU.png")); // NOI18N
+        btThucDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/MENU.png"))); // NOI18N
         btThucDon.setText("QUẢN LÍ \nTHỰC ĐƠN");
         btThucDon.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btThucDon.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -78,7 +78,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btBan.setBackground(new java.awt.Color(255, 255, 255));
         btBan.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btBan.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\bàn.png")); // NOI18N
+        btBan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/bàn.png"))); // NOI18N
         btBan.setText("QUẢN LÍ  BÀN");
         btBan.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btBan.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -92,7 +92,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btKhachHang.setBackground(new java.awt.Color(255, 255, 255));
         btKhachHang.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btKhachHang.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\khachhang.png")); // NOI18N
+        btKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/khachhang.png"))); // NOI18N
         btKhachHang.setText("QUẢN LÍ  KHÁCH HÀNG");
         btKhachHang.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btKhachHang.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -106,7 +106,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btThongKe.setBackground(new java.awt.Color(255, 255, 255));
         btThongKe.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btThongKe.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\thongke.png")); // NOI18N
+        btThongKe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/thongke.png"))); // NOI18N
         btThongKe.setText("THỐNG KÊ");
         btThongKe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btThongKe.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -120,7 +120,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btOrder.setBackground(new java.awt.Color(255, 255, 255));
         btOrder.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btOrder.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\186530842_758452454851125_5698688404055718619_n.png")); // NOI18N
+        btOrder.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/186530842_758452454851125_5698688404055718619_n.png"))); // NOI18N
         btOrder.setText("ORDER");
         btOrder.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btOrder.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -134,7 +134,7 @@ public class TrangChu extends javax.swing.JFrame {
 
         btVoucher.setBackground(new java.awt.Color(255, 255, 255));
         btVoucher.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btVoucher.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\voucher.png")); // NOI18N
+        btVoucher.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/voucher.png"))); // NOI18N
         btVoucher.setText("QUẢN LÍ  VOUCHER");
         btVoucher.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btVoucher.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -146,7 +146,7 @@ public class TrangChu extends javax.swing.JFrame {
         jPanel1.add(btVoucher);
         btVoucher.setBounds(460, 160, 170, 90);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\JAVA\\BanThucAn\\Anh\\3235.jpg_wh860.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anh/3235.jpg_wh860.jpg"))); // NOI18N
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 850, 580);
 

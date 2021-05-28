@@ -70,7 +70,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\hoadon.png"/>
+              <Image iconType="3" name="/Anh/hoadon.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xcd;  H&#xd3;A &#x110;&#x1a0;N"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -94,7 +94,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\MENU.png"/>
+              <Image iconType="3" name="/Anh/MENU.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xcd; &#xa;TH&#x1ef0;C &#x110;&#x1a0;N"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -118,7 +118,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\b&#xe0;n.png"/>
+              <Image iconType="3" name="/Anh/b&#xe0;n.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xcd;  B&#xc0;N"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -142,7 +142,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\khachhang.png"/>
+              <Image iconType="3" name="/Anh/khachhang.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xcd;  KH&#xc1;CH H&#xc0;NG"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -166,7 +166,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\thongke.png"/>
+              <Image iconType="3" name="/Anh/thongke.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="TH&#x1ed0;NG K&#xca;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -190,7 +190,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\186530842_758452454851125_5698688404055718619_n.png"/>
+              <Image iconType="3" name="/Anh/186530842_758452454851125_5698688404055718619_n.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="ORDER"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -214,7 +214,7 @@
               <Font name="Tahoma" size="12" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\voucher.png"/>
+              <Image iconType="3" name="/Anh/voucher.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xcd;  VOUCHER"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -232,7 +232,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\JAVA\BanThucAn\Anh\3235.jpg_wh860.jpg"/>
+              <Image iconType="3" name="/Anh/3235.jpg_wh860.jpg"/>
             </Property>
           </Properties>
           <Constraints>

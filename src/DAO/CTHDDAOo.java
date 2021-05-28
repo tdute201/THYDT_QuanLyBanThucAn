@@ -293,15 +293,15 @@ public class CTHDDAOo {
         Connection cn = con.getJDBCConnection();
         List<SanPham> list = new ArrayList<>();
         String sql = "select *\n" +
-                    "from tblSanPham \n" +
-                    "where id in (\n" +
-                    "select idSP \n" +
-                    "from tblChiTietDonHang as c, tblDonHang as d\n" +
-                    "where c.idDH = d.maDH and d.thanhToan = 'r' \n" +
-                    "group by idSP \n" +
-                    "having sum(SLMua) = ( select top 1 sum(SLMua) soLuong  from tblChiTietDonHang as c, tblDanhMuc as d, tblSanPham as s\n" +
-                    "where c.idSP = s.id and s.DMNo = d.idDM and d.idDM = ?\n" +
-                    "group by idSP order by soLuong desc)\n" +
+                    "from tblSanPham  \n" +
+                    "where id in ( \n" +
+                    "select idSP\n" +
+                    "from tblChiTietDonHang as c, tblDonHang as d \n" +
+                    "where c.idDH = d.maDH and d.thanhToan = 'r'  \n" +
+                    "group by idSP  \n" +
+                    "having sum(SLMua) = ( select top 1 sum(SLMua) soLuong  from tblChiTietDonHang as c, tblDanhMuc as d, tblSanPham as s , tblDonHang as do \n" +
+                    "where c.idSP = s.id and s.DMNo = d.idDM and d.idDM = ? and c.idDH = do.maDH and do.thanhToan = 'r'  \n" +
+                    "group by idSP order by soLuong desc) \n" +
                     ")";
         try {
             PreparedStatement pstm = cn.prepareStatement(sql);

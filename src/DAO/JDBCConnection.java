@@ -17,7 +17,7 @@ public class JDBCConnection {
     Connection con = null;
     public Connection getJDBCConnection(){
         try {
-            String dbUrl = "jdbc:jtds:sqlserver://NHUY:1433/QLBanThucAn03";
+            String dbUrl = "jdbc:jtds:sqlserver://localhost/QLBanThucAn03";
             con = DriverManager.getConnection(dbUrl);
             System.out.println("thành công");
         } catch (SQLException e) {
